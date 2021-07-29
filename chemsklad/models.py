@@ -14,5 +14,4 @@ class React(models.Model):
         self.save()
 
     def __str__(self):
-        return str(self.name) + ', квалификация: ' + str(self.qual) + ', поставщик: ' + str(
-            self.prov) + ', дата поступления: ' + str(self.date) + ', окончание срока хранения: ' + str(self.srok)
+        return self.name
